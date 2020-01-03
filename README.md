@@ -1,68 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tindev-Frontend
 
-## Available Scripts
+# Omnistack Week # 8 | Rocketseat
+ - Developing an application using *Node.js*, *ReactJS* e *React Native*
+ - Application Backend can be found <a href="https://github.com/gabrielsestrem/tindev-Backend-NodeJS">here</a>
+ - The Mobile App can be found <a href="https://github.com/gabrielsestrem/tindev-Mobile-ReactNative">here</a>
 
-In the project directory, you can run:
+## The App
+ - The application to be developed will be similar to Tinder, but for developers;
+ - Developers will be registered through Github, as users;
+ - Data returned from a request made to the Github API will be saved to the database (MongoDB);
+ - It will be possible to like and dislike the users;
+ 
+ - Due to the **Node** architecture, through a **websocket**, communication will be made between the server and the frontend in real time;
+ 
+## Day 2
+ - Using **express**, a microframework that deals with routes, requests, and responses;
+ - Using **nodemon** to monitor code changes and automatically restart the server when changes occur;
+ - Creating *Models* and *Controllers*;
+ - Using **mongoose** (ODM that uses Javascript syntax) to handle **MongoDB**, a nonrelational database;
+ - Using **axios** to handle external API requests.
 
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Day 4
+  - Using **socket.io**,  a library that abstracts from Node's standard websocket protocol and provides an easier way to work with it.
